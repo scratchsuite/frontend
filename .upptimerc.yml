@@ -26,7 +26,7 @@ sites:
     url: https://www.scratchfoundation.org/
 
 status-website:
-  baseUrl: /
+  baseUrl: /frontend
   logoUrl: https://scratchsuite.github.io/assets/upptime-icon.svg
   name: Scratch Suite
   cname: scratchsuite.github.io
@@ -34,7 +34,7 @@ status-website:
   introMessage: Use this site to see if scratch is down. 
   navbar:
     - title: Frontend
-      href: /
+      href: /frontend
     - title: Backend
       href: /backend
     - title: GitHub
