@@ -1,39 +1,52 @@
-# Change these first
-owner: upptime # Your GitHub username
-repo: upptime # Your GitHub repository name
+owner: scratchstatus
+repo: scratchstatus.github.io
 
 # Add your sites here
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Broken Site
-    url: https://thissitedoesnotexist.com
-  - name: Test for HEAD
-    method: HEAD
-    url: https://www.google.com
-  - name: Secret Site
-    url: $SECRET_SITE
-  - name: TCP ping
-    url: 1.1.1.1
+  - name: Scratch
+    url: https://scratch.mit.edu
+  - name: Scratch - Lab
+    url: https://lab.scratch.mit.edu
+  - name: Scratch - Day
+    url: https://day.scratch.mit.edu
+  - name: Scratch - Forums
+    url: https://scratch.mit.edu/discuss
+  - name: Scratch - Uploads (Scratch 2)
+    url: https://uploads.scratch.mit.edu/
+    expectedStatusCodes:
+      - 403
+      - 404
+  - name: Scratch in Practice
+    url: https://sip.scratch.mit.edu/
+  - name: Scratch - Wiki
+    url: https://scratch-wiki.info
+  - name: Scratch - ScratchJr
+    url: https://www.scratchjr.org/
+  - name: Scratch Foundation
+    url: https://www.scratchfoundation.org/
 
 status-website:
-  # Add your custom domain below, or remove the next line if you don't have a domain
-  cname: demo.upptime.js.org
-  # Uncomment the following line if you don't have a custom domain and add your repo name
-  # baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /
+  logoUrl: https://scratchstatus.github.io/assets/upptime-icon.svg
+  name: Scratch Status
+  cname: scratchstatus.github.io
+  introTitle: "Scratch Status"
+  introMessage: Use this site to see if scratch is down. Scratch is developed by the Lifelong Kindergarten Group at the MIT Media Lab. See [scratch.mit.edu](https://scratch.mit.edu). ScratchStatus is not affilated in any way with Scratch. Ask 9gr on Scratch for help.
   navbar:
-    - title: Status
+    - title: Frontend
       href: /
+    - title: Backend
+      href: /backend
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+  customBodyHtml: "<iframe src='/assets/topbar.html' height='65px' width='100%' style='border-width:0; overflow:hidden;'></iframe>"
+i18n:
+  footer: This page is powered by [Upptime](https://upptime.js.org) and created for use for everybody at [Scratch](https://scratch.mit.edu). If you want to help improve this, comment on [my profile](https://scratch.mit.edu/users/9gr)
+workflowSchedule:
+  graphs: "0 0 * * *"
+  responseTime: "0 23 * * *"
+  staticSite: "0 1 * * *"
+  summary: "0 0 * * *"
+  updateTemplate: "0 0 * * *"
+  updates: "0 3 * * *"
+  uptime: "*/5 * * * *"
