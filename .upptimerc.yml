@@ -31,7 +31,7 @@ status-website:
   name: Scratch Suite
   cname: scratchsuite.github.io
   introTitle: "Scratch Status"
-  introMessage: Use this site to see if scratch is down. Scratch is developed by the Lifelong Kindergarten Group at the MIT Media Lab. See [scratch.mit.edu](https://scratch.mit.edu). ScratchStatus is not affilated in any way with Scratch. Ask 9gr on Scratch for help.
+  introMessage: Use this site to see if scratch is down. 
   navbar:
     - title: Frontend
       href: /
@@ -41,7 +41,7 @@ status-website:
       href: https://github.com/$OWNER/$REPO
   customBodyHtml: "<iframe src='/assets/topbar.html' height='65px' width='100%' style='border-width:0; overflow:hidden;'></iframe>"
 i18n:
-  footer: This page is powered by [Upptime](https://upptime.js.org) and created for use for everybody at [Scratch](https://scratch.mit.edu). If you want to help improve this, comment on [my profile](https://scratch.mit.edu/users/9gr)
+  footer: This page is powered by [Upptime](https://upptime.js.org) and created for use for everybody at [Scratch](https://scratch.mit.edu). Scratch is developed by the Lifelong Kindergarten Group at the MIT Media Lab. See [scratch.mit.edu](https://scratch.mit.edu). ScratchStatus is not affilated in any way with Scratch. If you want to help improve this, comment on [my profile](https://scratch.mit.edu/users/9gr)
 workflowSchedule:
   graphs: "0 0 * * *"
   responseTime: "0 23 * * *"
