@@ -30,7 +30,7 @@ status-website:
   logoUrl: https://scratchsuite.github.io/assets/upptime-icon.svg
   name: Scratch Suite
   introTitle: "Scratch Status"
-  introMessage: Use this site to see if scratch is down. 
+  introMessage: Use this site to see if scratch is down. You can use [Hans' upptime](scratch-upptime.netlify.app) or [leahcimto's one](forumuptime.leahcimto.com)
   navbar:
     - title: Frontend
       href: /frontend
@@ -38,6 +38,5 @@ status-website:
       href: /backend
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-  customBodyHtml: "<iframe src='/assets/topbar.html' height='65px' width='100%' style='border-width:0; overflow:hidden;'></iframe>"
 i18n:
   footer: This page is powered by [Upptime](https://upptime.js.org) and created for use for everybody at [Scratch](https://scratch.mit.edu). Scratch is developed by the Lifelong Kindergarten Group at the MIT Media Lab. See [scratch.mit.edu](https://scratch.mit.edu). ScratchStatus is not affilated in any way with Scratch. If you want to help improve this, comment on [my profile](https://scratch.mit.edu/users/9gr)
