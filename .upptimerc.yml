@@ -36,7 +36,9 @@ status-website:
       href: /frontend
     - title: Backend
       href: /backend
+    - title: Scratcher-Made Websites
+      href: /scratchrs
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
 i18n:
-  footer: This page is powered by [Upptime](https://upptime.js.org) and created for use for everybody at [Scratch](https://scratch.mit.edu). Scratch is developed by the Lifelong Kindergarten Group at the MIT Media Lab. See [scratch.mit.edu](https://scratch.mit.edu). ScratchStatus is not affilated in any way with Scratch. If you want to help improve this, comment on [my profile](https://scratch.mit.edu/users/9gr)
+  footer: This page is powered by [Upptime](https://upptime.js.org) and created for use for everybody at [Scratch](https://scratch.mit.edu). If you want to help improve this, comment on [my profile](https://scratch.mit.edu/users/9gr)
