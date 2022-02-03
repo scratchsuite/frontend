@@ -148,17 +148,17 @@
     "url": "https://www.scratchfoundation.org/",
     "icon": "https://favicons.githubusercontent.com/www.scratchfoundation.org",
     "slug": "scratch-foundation",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 321,
-    "timeDay": 403,
-    "timeWeek": 264,
-    "timeMonth": 341,
-    "timeYear": 321,
+    "time": 322,
+    "timeDay": 480,
+    "timeWeek": 301,
+    "timeMonth": 348,
+    "timeYear": 322,
     "dailyMinutesDown": {}
   }
 ]
