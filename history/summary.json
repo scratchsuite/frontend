@@ -58,17 +58,17 @@
     "url": "https://scratch.mit.edu/discuss",
     "icon": "https://favicons.githubusercontent.com/scratch.mit.edu",
     "slug": "scratch-forums",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 161,
-    "timeDay": 75,
-    "timeWeek": 103,
-    "timeMonth": 95,
-    "timeYear": 165,
+    "timeDay": 43,
+    "timeWeek": 91,
+    "timeMonth": 92,
+    "timeYear": 164,
     "dailyMinutesDown": {}
   },
   {
@@ -86,7 +86,7 @@
     "timeDay": 168,
     "timeWeek": 97,
     "timeMonth": 107,
-    "timeYear": 645,
+    "timeYear": 642,
     "dailyMinutesDown": {}
   },
   {
