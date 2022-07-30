@@ -40,7 +40,7 @@
     "url": "https://day.scratch.mit.edu",
     "icon": "https://favicons.githubusercontent.com/day.scratch.mit.edu",
     "slug": "scratch-day",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -48,7 +48,7 @@
     "uptimeYear": "100.00%",
     "time": 344,
     "timeDay": 202,
-    "timeWeek": 376,
+    "timeWeek": 385,
     "timeMonth": 373,
     "timeYear": 343,
     "dailyMinutesDown": {}
